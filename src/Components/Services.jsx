@@ -1,6 +1,9 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 function Services() {
+
+  const [first, setFirst] = useState('This is normal data');
+  const [second, setSecond] = useState('This is important data');
 
   useEffect(() => {
     console.log("Service Component is Created");
